@@ -1,0 +1,44 @@
+FSCK started by alparka (auth:SIMPLE) from /192.168.100.158 for path /portfolio/input/sample.txt at Thu Oct 08 20:35:47 KST 2026
+
+/portfolio/input/sample.txt 21 bytes, replicated: replication=2, 1 block(s):  OK
+0. BP-1415686171-192.168.100.158-1791458486268:blk_1073741825_1001 len=21 Live_repl=2  [DatanodeInfoWithStorage[192.168.100.159:9866,DS-848db925-69b8-4dab-9d84-13688d962a8f,DISK], DatanodeInfoWithStorage[192.168.100.160:9866,DS-5adc5c34-ea62-47b8-a40e-16fa5416bbb8,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	21 B
+ Total files:	1
+ Total blocks (validated):	1 (avg. block size 21 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Thu Oct 08 20:35:47 KST 2026 in 4 milliseconds
+
+
+The filesystem under path '/portfolio/input/sample.txt' is HEALTHY

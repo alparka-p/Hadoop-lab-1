@@ -1,0 +1,2 @@
+drwxr-xr-x   - alparka supergroup          0 2026-10-08 20:30 /portfolio/input
+-rw-r--r--   2 alparka supergroup         21 2026-10-08 20:30 /portfolio/input/sample.txt
